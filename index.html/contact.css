@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7rem;
+    gap: 2rem;
+}
+p{
+    height: 3.55rem;
+    width: 11rem;
+    background: #656565;
+    color: white;
+    border-radius: 5rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: larger;
+
+ 
+}
+span{
+    font-size: large;
+    color: rgb(48, 48, 66);
+    border-bottom: 2px solid #656565;
+    width: 10rem;
+    text-align: center;
+}
+.email{
+    font-size: large;
+    color: rgb(48, 48, 66);
+    border-bottom: 2px solid #656565;
+    width: 16rem;
+    text-align: center;
+}

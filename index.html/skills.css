@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(backgrount\ technology.avif);
+    background-position: center;
+    background-size: cover;
+ backdrop-filter: blur(3px);
+ background-repeat: no-repeat;
+ height: 100%;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.skill {
+    position: relative;
+    top: 2rem;
+    margin-bottom: 2rem;
+   text-align: center;
+   font-size: large;
+   font-weight: bolder;
+   color: #a5bcca;
+}
+.skill .box{
+    height: 14rem;
+    width: 18rem;
+    border-radius: 2rem;
+    border: 2px solid #5D8298;
+    position: relative;
+    color: rgb(198, 188, 188);
+
+    
+}
+.box p{
+    position: relative;
+    top: 1rem;left: 1rem;
+    width: 15rem;
+    
+}
+.icon i{
+    position: relative;
+    top: 2rem;
+    font-size:2.55rem;
+}
+@media (max-width:600px){
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .skill .box{
+        height: 14rem;
+        width: 16rem;
+        
+        
+    }
+    
+}

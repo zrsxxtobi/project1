@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: rgb(38, 38, 60);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+div{
+    height: 45rem;
+    width: 44rem;
+    background-image: url(/my\ cv.png);
+   position: relative;
+   left: 15rem;
+}
